@@ -187,7 +187,8 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
             <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
             <pubDate>Sat, 28 Sep 2024 15:18:02 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;写在这部分的内容会以蓝色特别提醒框的形式显示哦！&lt;/p&gt;
+&lt;p&gt;写在这部分的内容会以蓝色特别提醒框的形式显示哦！&lt;br /&gt;
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;这部分的内容会以黄色特别提醒框的形式显示哦！&lt;/p&gt;
