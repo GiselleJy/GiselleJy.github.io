@@ -15,13 +15,14 @@
         <id>https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/</id>
         <title>Step.1 基于nodejs+hexo+github的博客搭建</title>
         <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/"/>
-        <content type="html">&lt;h1 id=&#34;环境搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境搭建&#34;&gt;#&lt;/a&gt; 环境搭建&lt;/h1&gt;
-&lt;h2 id=&#34;git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git&#34;&gt;#&lt;/a&gt; git&lt;/h2&gt;
+        <content type="html">&lt;h1 id=&#34;基于nodejshexogithub的博客搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基于nodejshexogithub的博客搭建&#34;&gt;#&lt;/a&gt; 基于 nodejs+hexo+github 的博客搭建&lt;/h1&gt;
+&lt;h2 id=&#34;环境搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境搭建&#34;&gt;#&lt;/a&gt; 环境搭建&lt;/h2&gt;
+&lt;h3 id=&#34;git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git&#34;&gt;#&lt;/a&gt; git&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;进入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS8=&#34;&gt; git 官网&lt;/span&gt;下载安装包，进行安装&lt;/li&gt;
 &lt;li&gt;安装好后打开 Git Bash，输入 &lt;code&gt;git -v&lt;/code&gt; ，正确显示版本说明安装成功&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nodejs&#34;&gt;#&lt;/a&gt; node.js&lt;/h2&gt;
+&lt;h3 id=&#34;nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nodejs&#34;&gt;#&lt;/a&gt; node.js&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;进入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3JnL3poLWNu&#34;&gt; node.js 官网&lt;/span&gt;下载安装包进行安装&lt;/li&gt;
 &lt;li&gt;安装好后的 nodejs 文件夹里可能只有 node_modules 文件夹，需要手动新建 node_global 和 node_cache 文件夹&lt;br /&gt;
@@ -29,11 +30,11 @@
 &lt;li&gt;配置环境变量，详细配置过程可参考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzYwODcwMTE4L2FydGljbGUvZGV0YWlscy8xMjk3MjcyNzQ=&#34;&gt;这一篇博客&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;另：该博主还记录了一篇&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzYwODcwMTE4L2FydGljbGUvZGV0YWlscy8xMjk3MjE5NzM=&#34;&gt;完全删除 node.js 的博客&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo&#34;&gt;#&lt;/a&gt; Hexo&lt;/h2&gt;
+&lt;h3 id=&#34;hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo&#34;&gt;#&lt;/a&gt; Hexo&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;这部分参考了技能树写得非常漂亮的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3Blbmd3ZW53dS9za2lsbC10cmVlL2Jsb2IvbWFzdGVyL0hleG8vaGV4byUyMCslMjBnaXRodWIlRTYlOTAlQUQlRTUlQkIlQkElRTQlQjglQUElRTQlQkElQkElRTUlOEQlOUElRTUlQUUlQTIlRTYlOTUlOTklRTclQTglOEIubWQ=&#34;&gt;这位兄弟&lt;/span&gt;，全局安装完 hexo 后，创建一个博客专用文件夹，然后再以管理员身份打开 git bash，进入该文件夹后再执行 &lt;code&gt;hexo init&lt;/code&gt;  对该文件夹进行初始化。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;配置github的ssh-key&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置github的ssh-key&#34;&gt;#&lt;/a&gt; 配置 Github 的 SSH key&lt;/h1&gt;
+&lt;h2 id=&#34;配置github的ssh-key&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置github的ssh-key&#34;&gt;#&lt;/a&gt; 配置 Github 的 SSH key&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在用户根目录使用 &lt;code&gt;cd ~/ssh&lt;/code&gt;  查看以前是否配置过 SSH
 &lt;ul&gt;
@@ -52,16 +53,13 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;搭建博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建博客&#34;&gt;#&lt;/a&gt; 搭建博客&lt;/h1&gt;
-&lt;h2 id=&#34;hexo常用指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo常用指令&#34;&gt;#&lt;/a&gt; hexo 常用指令&lt;/h2&gt;
+&lt;h2 id=&#34;搭建博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建博客&#34;&gt;#&lt;/a&gt; 搭建博客&lt;/h2&gt;
+&lt;h3 id=&#34;hexo常用指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo常用指令&#34;&gt;#&lt;/a&gt; hexo 常用指令&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;至此终于可以开始编辑属于自己的博客啦！可以选择自己喜欢的模板开始装扮博客，有能力也可以自己编写主题&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;常用指令如下：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvY29tbWFuZHM=&#34;&gt;hexo 官方指令文档&lt;/span&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-command&#34;&gt;hexo clean &amp;amp; hexo g &amp;amp; hexo s
-hexo clean &amp;amp; hexo g &amp;amp; hexo d
+&lt;pre&gt;&lt;code class=&#34;language-Bash&#34;&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s
+hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;amp; hexo b
 &lt;/code&gt;&lt;/pre&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -74,8 +72,8 @@ hexo clean &amp;amp; hexo g &amp;amp; hexo d
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;新建 md 文件&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;hexo n 文件名&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;在 source 文件夹下创建一个 &lt;code&gt;文件名.md&lt;/code&gt;  文件，再使用 md 文本编辑器进行编辑&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;hexo n &amp;quot;title&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;在 source 文件夹下创建一个 &lt;code&gt;title.md&lt;/code&gt;  文件，再使用 md 文本编辑器进行编辑&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;发布&lt;/td&gt;
@@ -97,11 +95,16 @@ hexo clean &amp;amp; hexo g &amp;amp; hexo d
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;hexo d&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;网站部署。&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;备份&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;hexo b&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;备份博客到 GitHub 上对应的 backup 分支&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署&#34;&gt;#&lt;/a&gt; 部署&lt;/h2&gt;
+&lt;h3 id=&#34;部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署&#34;&gt;#&lt;/a&gt; 部署&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;新建一个 github 仓库&lt;/p&gt;
@@ -125,7 +128,12 @@ hexo clean &amp;amp; hexo g &amp;amp; hexo d
 &lt;p&gt;可在仓库的 Settings → Pages 页面查看发布情况&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;路径管理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路径管理&#34;&gt;#&lt;/a&gt; 路径管理&lt;/h2&gt;
+&lt;h3 id=&#34;主题配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#主题配置&#34;&gt;#&lt;/a&gt; 主题配置&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY2F0ZWdvcmllcy9jb21wdXRlci1zY2llbmNlL25vdGUvdGhlbWUtc2hva2EtZG9jLw==&#34;&gt;主题官方指南&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;常见的 bug 和更详细的说明可以参考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLnR3aW5rbGluZy50b3AvMjAyMy8xMS8xNi9ub3RlL3Nob2thJTIwJUU0JUI4JUJCJUU5JUEyJTk4JUU2JTkwJUFEJUU1JUJCJUJBJUU4JUJGJTg3JUU3JUE4JThCLw==&#34;&gt;这一篇&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;路径管理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路径管理&#34;&gt;#&lt;/a&gt; 路径管理&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;展示一下到此为止我的文件路径：&lt;/p&gt;
@@ -143,13 +151,13 @@ hexo clean &amp;amp; hexo g &amp;amp; hexo d
 &lt;/ul&gt;
 &lt;h2 id=&#34;博客备份与恢复&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客备份与恢复&#34;&gt;#&lt;/a&gt; 博客备份与恢复&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;由于经历了一次系统重装后博客一无所有的惨痛经历，特此强调博客的备份和恢复，参考了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tdXBjZWV0LmNvbS8yMDE5LzA5L2JhY2t1cC1oZXhvLWJsb2cv&#34;&gt;这篇笔记&lt;/span&gt;。&lt;/li&gt;
+&lt;li&gt;由于经历了一次系统重装后博客一无所有的惨痛经历，特此强调博客的备份和恢复，参考了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90aWFuYmlhby50b3AvMTktSGV4byVFNSVBNCU4NyVFNCVCQiVCRCVFNSU4RiU4QSVFNiU4MSVBMiVFNSVBNCU4RC9pbmRleC5odG1sIyVFNSVBNCU4NyVFNCVCQiVCRA==&#34;&gt;这篇笔记&lt;/span&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         <category term="教程" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/" />
         <category term="博客" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2024-09-29T14:33:58.000Z</updated>
     </entry>
     <entry>
@@ -187,12 +195,11 @@ hexo clean &amp;amp; hexo g &amp;amp; hexo d
 &lt;h1 id=&#34;诞生&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#诞生&#34;&gt;#&lt;/a&gt; 诞生&lt;/h1&gt;
 &lt;p&gt;为了记录自己的学习足迹，特地开辟了这一块专门放置各类学习笔记的博客，同时兼职自己小小的精神家园，在博客的第一篇参考了模板作者说明文档的格式对博客创建的过程进行一个记录以防后续日子长了之后自己忘记如何维护，顺便学习编写格式正确的 md 文件。&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;:right: 模板地址&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;实时预览：ctrl+shift+V&lt;/p&gt;
 </content>
         <category term="教程" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/" />
         <category term="博客" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2024-09-28T07:18:02.000Z</updated>
     </entry>
     <entry>
@@ -773,8 +780,8 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T13:45:48.000Z</updated>
     </entry>
     <entry>
@@ -917,8 +924,8 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T13:12:48.000Z</updated>
     </entry>
     <entry>
@@ -1079,8 +1086,8 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T12:56:48.000Z</updated>
     </entry>
     <entry>
@@ -1176,8 +1183,8 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T12:46:48.000Z</updated>
     </entry>
     <entry>
@@ -1301,8 +1308,8 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T12:45:48.000Z</updated>
     </entry>
     <entry>
