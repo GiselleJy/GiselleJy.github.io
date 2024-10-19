@@ -1019,8 +1019,6 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
             <guid isPermalink="true">https://gisellejy.github.io/categories/</guid>
             <title>Categories</title>
             <link>https://gisellejy.github.io/categories/</link>
-            <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
-            <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
             <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
             <pubDate>Tue, 24 Dec 2013 23:30:09 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;This post contains 3 categories. Make sure your theme can display all of the categories.&lt;/p&gt;
@@ -1030,8 +1028,6 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
             <guid isPermalink="true">https://gisellejy.github.io/tags/</guid>
             <title>Tags</title>
             <link>https://gisellejy.github.io/tags/</link>
-            <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
-            <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
             <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
             <pubDate>Tue, 24 Dec 2013 23:29:53 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;This post contains 3 tags. Make sure your theme can display all of the tags.&lt;/p&gt;
