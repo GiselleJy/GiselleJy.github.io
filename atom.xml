@@ -12,21 +12,21 @@
     <category term="嘻嘻" />
     <category term="哈哈" />
     <entry>
-        <id>https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-other-skills/</id>
+        <id>https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/other-skills/</id>
         <title>Step.3 一些零零散散的小技巧</title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-other-skills/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/other-skills/"/>
         <content type="html">&lt;p&gt;在后续的使用过程中有什么可以补充的小技巧会记录在这里～&lt;/p&gt;
 </content>
         <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
         <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
-        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <updated>2024-10-19T15:00:33.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-post-a-note/</id>
+        <id>https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/post-a-note/</id>
         <title>Step.2 编辑一篇漂亮的markdown笔记吧</title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-post-a-note/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/post-a-note/"/>
         <content type="html">&lt;h1 id=&#34;front-matter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#front-matter&#34;&gt;#&lt;/a&gt; front matter&lt;/h1&gt;
 &lt;h2 id=&#34;默认设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#默认设置&#34;&gt;#&lt;/a&gt; 默认设置&lt;/h2&gt;
 &lt;ul&gt;
@@ -613,14 +613,14 @@
 </content>
         <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
         <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
-        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <updated>2024-10-07T15:00:33.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/skill-tree-video-pr-pr/</id>
+        <id>https://gisellejy.github.io/skill-tree/video/pr/pr/</id>
         <title>pr</title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-video-pr-pr/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/video/pr/pr/"/>
         <content type="html">&lt;h1 id=&#34;教程笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程笔记&#34;&gt;#&lt;/a&gt; 教程笔记&lt;/h1&gt;
 &lt;h2 id=&#34;l1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#l1&#34;&gt;#&lt;/a&gt; L1&lt;/h2&gt;
 &lt;ul&gt;
@@ -767,9 +767,9 @@
         <updated>2024-10-04T13:05:50.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-nodejs-hexo-github-blog/</id>
+        <id>https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/</id>
         <title>Step.1 基于nodejs+hexo+github的博客搭建</title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-nodejs-hexo-github-blog/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/"/>
         <content type="html">&lt;h1 id=&#34;基于nodejshexogithub的博客搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基于nodejshexogithub的博客搭建&#34;&gt;#&lt;/a&gt; 基于 nodejs+hexo+github 的博客搭建&lt;/h1&gt;
 &lt;h2 id=&#34;环境搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境搭建&#34;&gt;#&lt;/a&gt; 环境搭建&lt;/h2&gt;
 &lt;h3 id=&#34;git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git&#34;&gt;#&lt;/a&gt; git&lt;/h3&gt;
@@ -986,14 +986,14 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
 </content>
         <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
         <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
-        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <updated>2024-09-29T14:33:58.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/skill-tree-blog-how-to-build-a-blog/</id>
+        <id>https://gisellejy.github.io/skill-tree/blog/how-to-build-a-blog/</id>
         <title>如何创建一个博客</title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-how-to-build-a-blog/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/how-to-build-a-blog/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;/skill-tree/blog/how-to-build-a-blog/&#34;&gt;&lt;strong&gt;🚀简介&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -1008,8 +1008,8 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
 </content>
         <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
         <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
-        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
         <updated>2024-09-28T07:18:02.000Z</updated>
     </entry>
     <entry>
@@ -1030,9 +1030,9 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
         <updated>2024-09-28T05:21:23.960Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-special/</id>
+        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/special/</id>
         <title>Step.4 主题特殊功能</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-special/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/special/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;&lt;strong&gt;🦄特殊功能&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1590,14 +1590,14 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2020-08-13T13:45:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-display/</id>
+        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/display/</id>
         <title>Step.3 界面显示</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-display/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/display/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;&lt;strong&gt;🌈界面显示&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1734,14 +1734,14 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2020-08-13T13:12:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-config/</id>
+        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/config/</id>
         <title>Step.2 基本配置</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-config/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/config/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;&lt;strong&gt;📌基本配置&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1896,14 +1896,14 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2020-08-13T12:56:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-dependents/</id>
+        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/dependents/</id>
         <title>Step.1 依赖插件</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-dependents/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/dependents/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1993,14 +1993,14 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2020-08-13T12:46:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc/</id>
+        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/</id>
         <title>Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;跳票 N 久终于更新的简单的使用说明&lt;/p&gt;
 &lt;ul&gt;
@@ -2118,14 +2118,14 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2020-08-13T12:45:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science-java-course-1-week-2/</id>
+        <id>https://gisellejy.github.io/computer-science/java/course-1/week-2/</id>
         <title>第2周 判断</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science-java-course-1-week-2/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science/java/course-1/week-2/"/>
         <content type="html">&lt;p&gt;:::note info&lt;br /&gt;
  以下为个人学习笔记和习题整理&lt;br /&gt;
 课程：零基础学 Java 语言 - 浙江大学 - 翁恺 @ 中国大学 MOOC&lt;br /&gt;
@@ -2296,9 +2296,9 @@ grape&lt;/p&gt;
         <updated>2020-04-13T11:12:45.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science-java-course-1-week-1/</id>
+        <id>https://gisellejy.github.io/computer-science/java/course-1/week-1/</id>
         <title>第1周 计算</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science-java-course-1-week-1/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science/java/course-1/week-1/"/>
         <content type="html">&lt;p&gt;:::note info&lt;br /&gt;
  以下为个人学习笔记和习题整理&lt;br /&gt;
 课程：零基础学 Java 语言 - 浙江大学 - 翁恺 @ 中国大学 MOOC&lt;br /&gt;
