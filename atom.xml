@@ -970,7 +970,7 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
 &lt;p&gt;看了很多只备份关键文件的方法但是觉得太复杂了，先用着备份整个文件夹的方法，参考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93b3JrdGlsZS5jb20va2IvYXNrLzIzOTIxMi5odG1sIzp+OnRleHQ9JUU4JUE2JTgxJUU1JUE0JTg3JUU0JUJCJUJEJUU2JTk1JUI0JUU0JUI4JUFBJUU2JTk2JTg3JUU0JUJCJUI2JUU1JUE0JUI5JUVGJUJDJThDJUU1JThGJUFG&#34;&gt;这个回答&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在要备份的文件夹内打开命令行终端，输入 &lt;code&gt;git init&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;添加所有文件到 git 本地仓库， &lt;code&gt;git add&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;添加所有文件到 git 本地仓库， &lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;提交更改并添加相应注释， &lt;code&gt;git commit -m &amp;quot;备份文件夹&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;在 github 上新建了一个私人仓库 &lt;code&gt;blog-backup&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;关联远程仓库 &lt;code&gt;git remote add origin &amp;lt;远程仓库的URL&amp;gt;&lt;/code&gt;
