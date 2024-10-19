@@ -8,13 +8,768 @@
     <author>
       <name>Giselle-Jiaying</name>
     </author>
-    <updated>2024-09-29T14:33:58.000Z</updated>
+    <updated>2024-10-19T15:00:33.000Z</updated>
     <category term="嘻嘻" />
     <category term="哈哈" />
     <entry>
-        <id>https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/</id>
+        <id>https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-other-skills/</id>
+        <title>Step.3 一些零零散散的小技巧</title>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-other-skills/"/>
+        <content type="html">&lt;p&gt;在后续的使用过程中有什么可以补充的小技巧会记录在这里～&lt;/p&gt;
+</content>
+        <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
+        <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
+        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <updated>2024-10-19T15:00:33.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-post-a-note/</id>
+        <title>Step.2 编辑一篇漂亮的markdown笔记吧</title>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-post-a-note/"/>
+        <content type="html">&lt;h1 id=&#34;front-matter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#front-matter&#34;&gt;#&lt;/a&gt; front matter&lt;/h1&gt;
+&lt;h2 id=&#34;默认设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#默认设置&#34;&gt;#&lt;/a&gt; 默认设置&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;带 &lt;code&gt;*&lt;/code&gt;  号为必需项&lt;/li&gt;
+&lt;li&gt;标签为顺序无关，定义在相同的层次结构上。&lt;/li&gt;
+&lt;li&gt;分类按顺序应用于文章，产生分类 - 子分类的层次结构。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;设置&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;默认值&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;layout&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;布局&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;config.default_layout&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;title*&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;标题&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;文章名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;date*&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;建立日期&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;文件建立日期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;update&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;更新日期&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;文件更新日期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;comments&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;文章的评论功能开关&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;true&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;tags&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;标签 (不适用于分页)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;categories&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;分类 (不适用于分页)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;published&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;published&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;对于 &lt;code&gt;_posts&lt;/code&gt;  下的文章为 &lt;code&gt;true&lt;/code&gt; ，对于 &lt;code&gt;_draft&lt;/code&gt;  下的文章为 &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;其它设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其它设置&#34;&gt;#&lt;/a&gt; 其它设置&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;和主题有关，当前使用的是 shoka，作者的详细介绍在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9zcGVjaWFsLw==&#34;&gt;这里&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;categories 涉及到文件路径的映射，需要在 &lt;code&gt;config.yml&lt;/code&gt;  的 &lt;code&gt;category_map&lt;/code&gt;  中补充中文目录对应的英文路径映射，为了便于管理文章，文章的存放结构与 categories 一致。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;设置&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;功能&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;默认值&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;sticky&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;首页置顶&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;false&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;valine&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;评论输入区提示&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;ヽ (○´∀`)ﾉ♪&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;_config.shoka.yml→valine→placeholder&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;summary&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;文章摘要&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;截取文章前部文字&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;显示在文章卡片摘要中&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;author&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;作者&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;me&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;_config.yml→author&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;permalink&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;永久链接&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;title/&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;和文件路径有关&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;cover&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;设置文章封面图&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;随即图库&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;可以设为 source 目录里的图片文件，示例：assets/xxxx.jpg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;img&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;背景图&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;/&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;math&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;支持数学公式显示&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;false&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;一行公式格式 &lt;code&gt;$latex格式公式$&lt;/code&gt; , 一块公式格式 &lt;code&gt;$$\begin &amp;#123;array&amp;#125;&amp;#123;c&amp;#125; 公式 \end &amp;#123;array&amp;#125;$$&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;mermaid&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;流程图&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;false&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;像代码块的写法&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;audio&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;修改背景音乐&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;/&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;_config.shoka.yml→audio，设为 false 可关闭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;quiz&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;显示题型标签&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;false&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;本文示例：&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter-block&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter yaml language-yaml&#34;&gt;&lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &amp;lt;title&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; YYYY/mm/dd HH&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;MM&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;ss&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;update&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; YYYY/mm/dd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;categories&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;教程&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 博客&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#使用类别名称列表的写法表达多级层次结构&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; 其它 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;tags&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; 博客&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; 教程&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;valine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;placeholder&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;你好呀~&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h1&gt;
+&lt;h2 id=&#34;基本语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本语法&#34;&gt;#&lt;/a&gt; 基本语法&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXJrZG93bi5jb20uY24vYmFzaWMtc3ludGF4Lw==&#34;&gt;markdown 语法官方指南&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lbW9qaTYuY29tL2Vtb2ppYWxsLw==&#34;&gt;emoji&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;主题语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#主题语法&#34;&gt;#&lt;/a&gt; 主题语法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9zcGVjaWFsLw==&#34;&gt;参考主题作者&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;颜色通用样式：default、primary (紫色)、success (绿色)、info (蓝色)、warning (黄色)、danger (红色)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;链接块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链接块&#34;&gt;#&lt;/a&gt; 链接块&lt;/h3&gt;
+&lt;p&gt;可以显示可爱的链接卡片：&lt;br /&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Giselle&#34;&gt;&lt;a href=&#34;&lt;https://gisellejy.github.io/&gt;&#34; class=&#34;image&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/a&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;a href=&#34;&lt;https://gisellejy.github.io/&gt;&#34; class=&#34;title&#34;&gt;Giselle的博客&lt;/a&gt;
+          &lt;p class=&#34;desc&#34;&gt;纷纷的博客主页&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;格式：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#123;% links %&amp;#125;
+  - site: #站点名称,必填
+    owner: #管理员名字，默认为site的值
+    url: #站点网址
+    desc: #简短描述
+    image: #一张图片
+    color: #颜色代码
+  &amp;#123;% endlinks %&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;练习题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习题&#34;&gt;#&lt;/a&gt; 练习题&lt;/h3&gt;
+&lt;p&gt;在线做题及显示答案&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;使用说明：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;标签&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;含义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;.quiz&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;选择题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;.quiz.multi&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;多选题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;.quiz.ture&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;正确的判断题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;.quiz.false&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;错误的判断题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;.quiz.fill&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;填空题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[]&amp;#123;.gap&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;空白下划线&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[答案内容]&amp;#123;.gap&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;答案内容带下划线&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;.options&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;列出 ABCD… 选项&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;correct&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;选择题的正确选项&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;答案解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[8.4]&amp;#123;.mistake&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;错题备注&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter-block&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter yaml language-yaml&#34;&gt;&lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 练习题与答案&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;quiz&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt;判断题&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。 &amp;#123;.quiz .true&amp;#125; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt;多选题&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 有基类 &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`SHAPE`&lt;/span&gt;，派生类 &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`CIRCLE`&lt;/span&gt;，声明如下变量：  &amp;#123;.quiz .multi&amp;#125; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    ```cpp #在题目中插入代码&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SHAPE shape1,&lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;p1;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    CIRCLE circle1,&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt;q1;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    ```&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    下列哪些项是 “派生类对象替换基类对象”。            &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`p1=&amp;amp;circle1;`&lt;/span&gt; &amp;#123;.correct&amp;#125;  #标记正确选项&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`q1=&amp;amp;shape1;`&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`shape1=circle1;`&lt;/span&gt; &amp;#123;.correct&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`circle1=shape1;`&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt;答案说明&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;.options&amp;#125;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &gt; - :heavy_check_mark: 令基类对象的指针指向派生类对象&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &gt; - :x: 派生类指针指向基类的引用&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &gt; - :heavy_check_mark: 派生类对象给基类对象赋值&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &gt; - :x: 基类对象给派生类对象赋值&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &gt; &amp;#123;.options&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt;下划线填空区&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 下列叙述正确的是 []&amp;#123;.gap&amp;#125; 。 &amp;#123;.quiz&amp;#125;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 虚函数只能定义成无参函数&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 虚函数不能有返回值&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 能定义虚构造函数&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; A、B、C 都不对 &amp;#123;.correct&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;.options&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt;填空题&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt;  如果定义 &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`int e=8; double f=6.4, g=8.9;`&lt;/span&gt;，则表达式 &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`f+int (e/3*int (f+g)/2)%4`&lt;/span&gt; 的值为 [9.4]&amp;#123;.gap&amp;#125;。 &amp;#123;.quiz .fill&amp;#125;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &gt; 注意运算顺序和数据类型&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &gt; [8.4]&amp;#123;.mistake&amp;#125;  #错题备注&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;文字特效&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文字特效&#34;&gt;#&lt;/a&gt; 文字特效&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;特殊字体格式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;字体特效&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;效果&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;++下划线++&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ins&gt;下划线&lt;/ins&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;++波浪下划线++&amp;#123;.wavy&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ins class=&#34;wavy&#34;&gt;波浪下划线&lt;/ins&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;++点点下划线++&amp;#123;.dot&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ins class=&#34;dot&#34;&gt;点点下划线&lt;/ins&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;++紫色下划线++&amp;#123;.primary&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ins class=&#34;primary&#34;&gt;紫色下划线&lt;/ins&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;++绿色下划线++&amp;#123;.wavy .success&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ins class=&#34;wavy success&#34;&gt;绿色下划线&lt;/ins&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;++黄色点点线++&amp;#123;.dot .warning&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ins class=&#34;dot warning&#34;&gt;黄色点点线&lt;/ins&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;~~删除线~~&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;s&gt;删除线&lt;/s&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;~~红色删除线~~&amp;#123;.danger&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;s class=&#34;danger&#34;&gt;红色删除线&lt;/s&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;==荧光高亮==&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;mark&gt;荧光高亮&lt;/mark&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[彩虹字体]&amp;#123;.rainbow&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;rainbow&#34;&gt;彩虹字体&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[红色]&amp;#123;.red&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;red&#34;&gt;红色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[粉色]&amp;#123;.pink&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;pink&#34;&gt;粉色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[橙色]&amp;#123;.orange&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;orange&#34;&gt;橙色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[黄色]&amp;#123;.yellow&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;yellow&#34;&gt;黄色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[绿色]&amp;#123;.green&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;green&#34;&gt;绿色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[靛青]&amp;#123;.aqua&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;aqua&#34;&gt;靛青&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[蓝色]&amp;#123;.blue&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;blue&#34;&gt;蓝色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[紫色]&amp;#123;.purple&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;purple&#34;&gt;紫色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[灰色]&amp;#123;.grey&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;grey&#34;&gt;灰色&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;快捷键：[Ctrl]&amp;#123;.kbd&amp;#125; + [C]&amp;#123;.kbd .red&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;H~2~O&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;29^th^&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;29&lt;sup&gt;th&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;隐藏文字&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;效果&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;!!鼠标滑过显示内容!!&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;鼠标滑过显示内容&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;!!选中文字显示内容!!&amp;#123;.bulr&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;选中文字显示内容&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;标签块&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;效果&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[default]&amp;#123;.label&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;label&#34;&gt;default&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[primary]&amp;#123;.label .primary&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;label primary&#34;&gt;primary&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[info]&amp;#123;.label .info&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;label info&#34;&gt;info&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[:heavy_check_mark:success]&amp;#123;.label .success&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;label success&#34;&gt;✔️success&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[warning]&amp;#123;.label .warning&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;label warning&#34;&gt;warning&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;[:broken_heart:danger]&amp;#123;.label .danger&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;label danger&#34;&gt;💔danger&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;提醒块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提醒块&#34;&gt;#&lt;/a&gt; 提醒块&lt;/h3&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::default&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;默认默认&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::primary&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;基本基本&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::info&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;提示提示&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::success&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;成功成功&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::warning&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;警告警告&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::danger&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;危险危险&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::danger no-icon&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;无图标版危险&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:::&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;默认默认&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;基本基本&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;提示提示&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note success&#34;&gt;
+&lt;p&gt;成功成功&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;警告警告&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;危险危险&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note danger no-icon&#34;&gt;
+&lt;p&gt;无图标版危险&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;标签卡&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标签卡&#34;&gt;#&lt;/a&gt; 标签卡&lt;/h3&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;;;;id1 ①号标签卡片名称 1  #表示第一页&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;这里是卡片 1 的内容&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;可以插入以上所有内容（？）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;;;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;;;;id1 ①号标签卡片名称 2  #表示第二页&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;这里是卡片 2 的内容&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;;;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;①号标签卡片名称 1&#34;&gt;
+&lt;p&gt;这里是卡片 1 的内容&lt;br /&gt;
+可以插入以上所有内容（？）&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;①号标签卡片名称 2&#34;&gt;
+&lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;折叠快&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#折叠快&#34;&gt;#&lt;/a&gt; 折叠快&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;+++[颜色风格] [标题文字]
+内容
++++
+
++++primary 紫色
+:::info
+参考信息
+:::
+
+- 第一行
+- 第二行
++++
+
++++info  蓝色
+;;;id3 卡片 1
+这里是卡片 1 的内容
+;;;
+
+;;;id3 卡片 2
+这里是卡片 2 的内容
+;;;
++++
+
++++success 绿色
+&amp;#123;% links %&amp;#125;
+- site: 優萌初華
+  url: https://shoka.lostyu.me
+  color: &#34;#e9546b&#34;
+&amp;#123;% endlinks %&amp;#125;
++++
+
++++warning 黄色
+!! 警告警告警告警告警告！！&amp;#123;.bulr&amp;#125;
+[label]&amp;#123;.label .success&amp;#125;
++++
+
++++danger 红色
+[danger]&amp;#123;.label .danger&amp;#125;
++++
+&lt;/code&gt;&lt;/pre&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;紫色&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;参考信息&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;第一行&lt;/li&gt;
+&lt;li&gt;第二行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;蓝色&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片 1&#34;&gt;
+&lt;p&gt;这里是卡片 1 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片 2&#34;&gt;
+&lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;黄色&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;!! 警告警告警告警告警告！！{.bulr}&lt;br /&gt;
+&lt;span class=&#34;label success&#34;&gt;label&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;红色&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;danger&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;success&#34;&gt;&lt;summary&gt;绿色&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;https://shoka.lostyu.me&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h3 id=&#34;打勾勾&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#打勾勾&#34;&gt;#&lt;/a&gt; 打勾勾&lt;/h3&gt;
+&lt;p&gt;主要是记录改颜色的方法，配合文本块应该会很好看&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;代码&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; [ ] 一个叉叉&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; [x] 一个勾勾&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;.primary&amp;#125; #让勾勾显示为紫色&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;效果&lt;/p&gt;
+&lt;ul class=&#34;task-list primary&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 一个叉叉&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 一个勾勾&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;文字注音&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文字注音&#34;&gt;#&lt;/a&gt; 文字注音&lt;/h3&gt;
+&lt;p&gt;基本格式： &lt;code&gt;&amp;#123;文字+注音&amp;#125;&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;举例&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;效果&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;取り返す^とりかえす&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;取&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;と&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; り&lt;rt&gt;&lt;/rt&gt;返&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;かえ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; す&lt;rt&gt;&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;可愛い犬^か+わい・い・いぬ&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;可愛&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;かわい&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; い&lt;rt&gt;&lt;/rt&gt;犬&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;いぬ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;可愛い犬^か・わい・いいぬ&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;可&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;か&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; 愛&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;わい&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; い&lt;rt&gt;&lt;/rt&gt;犬&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;いぬ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;アクセラレータ^accelerator&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;アクセラレータ&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;accelerator&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;accelerator^アクセラレータ&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;accelerator&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;アクセラレータ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;食べる^たべる&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;食&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;た&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; べる&lt;rt&gt;&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;食べる^=たべる&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;食べる&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;たべる&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;あいうえお^*&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;あ&lt;rt&gt;●&lt;/rt&gt;い&lt;rt&gt;●&lt;/rt&gt;う&lt;rt&gt;●&lt;/rt&gt;え&lt;rt&gt;●&lt;/rt&gt;お&lt;rt&gt;●&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;あいうえお^*❤&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;あ&lt;rt&gt;❤&lt;/rt&gt;い&lt;rt&gt;❤&lt;/rt&gt;う&lt;rt&gt;❤&lt;/rt&gt;え&lt;rt&gt;❤&lt;/rt&gt;お&lt;rt&gt;❤&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;#123;常用账号^contact&amp;#125;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;ruby&gt;常用账号&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;contact&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;多媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多媒体&#34;&gt;#&lt;/a&gt; 多媒体&lt;/h3&gt;
+&lt;p&gt;可选择插入音频 audio 和视频 video 两种类型&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#123;% media audio %&amp;#125;
+- title: 列表 1
+  list:
+    - https://music.163.com/#/playlist?id=2943811283
+    - https://music.163.com/#/playlist?id=2297706586
+- title: 列表 2
+  list:
+    - https://music.163.com/#/playlist?id=2031842656
+&amp;#123;% endmedia %&amp;#125;
+&amp;#123;% media video %&amp;#125;
+- name: &#34;测试 1&#34;
+  url: https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0
+- name: &#34;测试 2&#34;
+  url: https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0
+&amp;#123;% endmedia %&amp;#125;
+
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+        <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
+        <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
+        <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <updated>2024-10-07T15:00:33.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://gisellejy.github.io/skill-tree-video-pr-pr/</id>
+        <title>pr</title>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-video-pr-pr/"/>
+        <content type="html">&lt;h1 id=&#34;教程笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程笔记&#34;&gt;#&lt;/a&gt; 教程笔记&lt;/h1&gt;
+&lt;h2 id=&#34;l1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#l1&#34;&gt;#&lt;/a&gt; L1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;MP4
+&lt;ul&gt;
+&lt;li&gt;编码格式：H.264&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;新建项目
+&lt;ul&gt;
+&lt;li&gt;命名、位置→建立&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;面板介绍
+&lt;ul&gt;
+&lt;li&gt;效果
+&lt;ul&gt;
+&lt;li&gt;推荐 AE&lt;/li&gt;
+&lt;li&gt;素材窗口&lt;/li&gt;
+&lt;li&gt;工具栏&lt;/li&gt;
+&lt;li&gt;时间轴窗口&lt;/li&gt;
+&lt;li&gt;预览窗口&lt;/li&gt;
+&lt;li&gt;效果窗口，其他窗口&lt;/li&gt;
+&lt;li&gt;特效参数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;组件：粗剪窗口&lt;/li&gt;
+&lt;li&gt;编辑：时间轴面板更大，基础效果搭建 —— 精剪
+&lt;ul&gt;
+&lt;li&gt;有缩放效果控件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;颜色：推荐（达芬奇）&lt;/li&gt;
+&lt;li&gt;音频：Au 更专业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;帧
+&lt;ul&gt;
+&lt;li&gt;国内 PAL 制，25 个画面 / 秒，帧 / 秒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;缩放
+&lt;ul&gt;
+&lt;li&gt;编辑 - 效果控件&lt;/li&gt;
+&lt;li&gt;或右击画面轨道，缩放为帧大小&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;剪辑
+&lt;ul&gt;
+&lt;li&gt;工具栏：C 键剃刀工具，V 键选择工具&lt;/li&gt;
+&lt;li&gt;Alt 键
+&lt;ul&gt;
+&lt;li&gt;长按 + 滚动滑轮 = 缩放时间轴显示比例&lt;/li&gt;
+&lt;li&gt;选择音轨 + 长按 + 滚动滑轮 = 预览音频波形&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;导出
+&lt;ul&gt;
+&lt;li&gt;文件 - 到处 - 媒体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;l2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#l2&#34;&gt;#&lt;/a&gt; L2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;裁出特定帧数的素材：
+&lt;ul&gt;
+&lt;li&gt;双击素材得到素材.mp4 窗口&lt;/li&gt;
+&lt;li&gt;标记入点 (I)&lt;/li&gt;
+&lt;li&gt;标记出点 (O)&lt;/li&gt;
+&lt;li&gt;此时再将素材拖进时间轴就只有裁剪的一小段&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;通过速度调整素材大小：
+&lt;ul&gt;
+&lt;li&gt;右键 - 速度 / 持续时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;多个素材统一画面：
+&lt;ul&gt;
+&lt;li&gt;右键 - 调整为帧大小&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;标记 (M)
+&lt;ul&gt;
+&lt;li&gt;shift + M : 向右切换标记点&lt;/li&gt;
+&lt;li&gt;Ctrl +  M : 导出&lt;/li&gt;
+&lt;li&gt;Ctrl + shift + M : 向左移动标记点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;切断视频和音频的联系：
+&lt;ul&gt;
+&lt;li&gt;右键音频 - 取消连接&lt;/li&gt;
+&lt;li&gt;或按住 alt+delete 键直接删除音频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;快速去除片段之间的空白
+&lt;ul&gt;
+&lt;li&gt;右击空白处 - 波纹删除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;剪辑完毕进行试预览时若画面卡顿
+&lt;ul&gt;
+&lt;li&gt;预览窗口右下角将‘完整’改为其他值，表示分辨率展示的程度，会导致预览画面偏糊但减少卡顿情况&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;音乐同步
+&lt;ul&gt;
+&lt;li&gt;感受音乐的情绪和节奏&lt;/li&gt;
+&lt;li&gt;节奏较快的部分素材的时长较短，切换频繁&lt;/li&gt;
+&lt;li&gt;有大节拍的地方可使剪辑点对齐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;l3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#l3&#34;&gt;#&lt;/a&gt; L3&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;抽帧
+&lt;ul&gt;
+&lt;li&gt;将 12 帧画面用 24 帧播放，使画面卡顿&lt;/li&gt;
+&lt;li&gt;可增加颓废感或配合音乐节奏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;找音乐节奏
+&lt;ul&gt;
+&lt;li&gt;节奏点：波峰波谷差距大的地方，越直上直下越明显&lt;/li&gt;
+&lt;li&gt;对于聒噪音频的处理：音频增益 - 20&lt;/li&gt;
+&lt;li&gt;边听边看波形，标记节奏点&lt;/li&gt;
+&lt;li&gt;连续画面卡节奏时片段衔接处画面也要有明显变化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
+        <category term="视频剪辑" scheme="https://gisellejy.github.io/categories/skill-tree/video/" />
+        <category term="Premier Pro" scheme="https://gisellejy.github.io/categories/skill-tree/video/pr/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="视频剪辑" scheme="https://gisellejy.github.io/tags/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/" />
+        <updated>2024-10-04T13:05:50.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-nodejs-hexo-github-blog/</id>
         <title>Step.1 基于nodejs+hexo+github的博客搭建</title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-build-a-blog-doc-nodejs-hexo-github-blog/"/>
         <content type="html">&lt;h1 id=&#34;基于nodejshexogithub的博客搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基于nodejshexogithub的博客搭建&#34;&gt;#&lt;/a&gt; 基于 nodejs+hexo+github 的博客搭建&lt;/h1&gt;
 &lt;h2 id=&#34;环境搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境搭建&#34;&gt;#&lt;/a&gt; 环境搭建&lt;/h2&gt;
 &lt;h3 id=&#34;git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git&#34;&gt;#&lt;/a&gt; git&lt;/h3&gt;
@@ -149,58 +904,112 @@ hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s -d &amp;amp;&amp;
 9. &lt;code&gt;_config.shoka.yml&lt;/code&gt;  文件：针对 shoka 主题进行的配置修改文件。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;博客备份与恢复&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客备份与恢复&#34;&gt;#&lt;/a&gt; 博客备份与恢复&lt;/h2&gt;
+&lt;h1 id=&#34;博客的发布与备份&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客的发布与备份&#34;&gt;#&lt;/a&gt; 博客的发布与备份&lt;/h1&gt;
+&lt;p&gt;这部分内容参考了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3Mvd3JpdGluZw==&#34;&gt;官方说明&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;创建文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建文章&#34;&gt;#&lt;/a&gt; 创建文章&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/code&gt;  :&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;layout&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;生成路径&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不填&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;在当前目录下创建新文章&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;post&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;在 source/_posts 目录下创建新文章&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;page&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;在 source 目录下创建新文章&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;draft&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;在 source/_drafts 目录下创建新文章&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;使用该指令新建文章时会根据 scaffolds 文件夹中的设置来初始化相应模板，如 &lt;code&gt;hexo new post &amp;lt;title&amp;gt;&lt;/code&gt;  下会在 scaffolds 文件夹中寻找 post.md 文件并据此新建文章。&lt;/p&gt;
+&lt;h2 id=&#34;发布及更新&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#发布及更新&#34;&gt;#&lt;/a&gt; 发布及更新&lt;/h2&gt;
+&lt;p&gt;all-in-one:  &lt;code&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo d&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;指令&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;hexo clean&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;清除缓存文件 &lt;code&gt;(db.json)&lt;/code&gt;  和已生成的静态文件 &lt;code&gt;(public)&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;hexo g&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;生成静态文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;hexo s&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;本地试浏览，地址一般为 &lt;code&gt;http://localhost:4000/&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;hexo d&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;部署&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;备份&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#备份&#34;&gt;#&lt;/a&gt; 备份&lt;/h2&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;要养成备份的好习惯哦！&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;看了很多只备份关键文件的方法但是觉得太复杂了，先用着备份整个文件夹的方法，参考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93b3JrdGlsZS5jb20va2IvYXNrLzIzOTIxMi5odG1sIzp+OnRleHQ9JUU4JUE2JTgxJUU1JUE0JTg3JUU0JUJCJUJEJUU2JTk1JUI0JUU0JUI4JUFBJUU2JTk2JTg3JUU0JUJCJUI2JUU1JUE0JUI5JUVGJUJDJThDJUU1JThGJUFG&#34;&gt;这个回答&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;由于经历了一次系统重装后博客一无所有的惨痛经历，特此强调博客的备份和恢复，参考了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90aWFuYmlhby50b3AvMTktSGV4byVFNSVBNCU4NyVFNCVCQiVCRCVFNSU4RiU4QSVFNiU4MSVBMiVFNSVBNCU4RC9pbmRleC5odG1sIyVFNSVBNCU4NyVFNCVCQiVCRA==&#34;&gt;这篇笔记&lt;/span&gt;。&lt;/li&gt;
+&lt;li&gt;在要备份的文件夹内打开命令行终端，输入 &lt;code&gt;git init&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;添加所有文件到 git 本地仓库， &lt;code&gt;git add&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;提交更改并添加相应注释， &lt;code&gt;git commit -m &amp;quot;备份文件夹&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在 github 上新建了一个私人仓库 &lt;code&gt;blog-backup&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;关联远程仓库 &lt;code&gt;git remote add origin &amp;lt;远程仓库的URL&amp;gt;&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;这一步遇到了问题：Failed to connect to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20=&#34;&gt;github.com&lt;/span&gt; port 443 after ***** ms: Couldn‘t connect to server，排除了网络问题后在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzY0MDA3MjAxL2FydGljbGUvZGV0YWlscy8xMjk2MjgzNjM=&#34;&gt;这篇文章&lt;/span&gt;找到解决方法，总而言之就是修改 git 配置为自己电脑的代理端口号即可。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;推送到远程仓库 &lt;code&gt;git push -u origin main&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为了便于理解备份操作的指令，附上一张 Git 操作的原理图&lt;br /&gt;
+&lt;img data-src=&#34;/assets/skill-tree/blog/git3.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sdXNodW5qaWFuLmdpdGh1Yi5pby9ibG9nLzIwMTkvMDIvMTQvR2l0JUU3JTlBJTg0JUU1JThFJTlGJUU3JTkwJTg2Lw==&#34;&gt;图片来源&lt;/span&gt;：GIT 的原理&lt;/p&gt;
 </content>
-        <category term="教程" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/" />
-        <category term="博客" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
+        <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
         <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2024-09-29T14:33:58.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/other-skills/</id>
-        <title></title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/other-skills/"/>
-        <content type="html"></content>
-        <updated>2024-09-29T14:21:49.540Z</updated>
-    </entry>
-    <entry>
-        <id>https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/post-a-note/</id>
-        <title></title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/build-a-blog-doc/post-a-note/"/>
-        <content type="html"></content>
-        <updated>2024-09-29T14:20:14.472Z</updated>
-    </entry>
-    <entry>
-        <id>https://gisellejy.github.io/skill-tree/blog/how-to-build-a-blog/</id>
+        <id>https://gisellejy.github.io/skill-tree-blog-how-to-build-a-blog/</id>
         <title>如何创建一个博客</title>
-        <link rel="alternate" href="https://gisellejy.github.io/skill-tree/blog/how-to-build-a-blog/"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;写在这部分的内容会以蓝色特别提醒框的形式显示哦！&lt;br /&gt;
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;这部分的内容会以黄色特别提醒框的形式显示哦！&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note primary&#34;&gt;
+        <link rel="alternate" href="https://gisellejy.github.io/skill-tree-blog-how-to-build-a-blog/"/>
+        <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;/skill-tree/blog/how-to-build-a-blog/&#34;&gt;&lt;strong&gt;🚀简介&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/&#34;&gt;💌基于 nodejs+hexo+github 的博客搭建&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/skill-tree/blog/build-a-blog-doc/post-a-note/&#34;&gt;📌如何发布一篇笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/skill-tree/blog/build-a-blog-doc/nodejs+hexo+github=blog/&#34;&gt;💌博客搭建 + 发布和备份&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/skill-tree/blog/build-a-blog-doc/post-a-note/&#34;&gt;📌如何编辑漂亮的 markdown 笔记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;/skill-tree/blog/build-a-blog-doc/other-skills/&#34;&gt;🌈一些零零散散的小技巧&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;诞生&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#诞生&#34;&gt;#&lt;/a&gt; 诞生&lt;/h1&gt;
 &lt;p&gt;为了记录自己的学习足迹，特地开辟了这一块专门放置各类学习笔记的博客，同时兼职自己小小的精神家园，在博客的第一篇参考了模板作者说明文档的格式对博客创建的过程进行一个记录以防后续日子长了之后自己忘记如何维护，顺便学习编写格式正确的 md 文件。&lt;br /&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;:right: 模板地址&lt;/span&gt;&lt;/p&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;👉️: 模板地址&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="教程" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/" />
-        <category term="博客" scheme="https://gisellejy.github.io/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/" />
-        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="教程" scheme="https://gisellejy.github.io/categories/skill-tree/" />
+        <category term="博客" scheme="https://gisellejy.github.io/categories/skill-tree/blog/" />
         <category term="博客" scheme="https://gisellejy.github.io/tags/%E5%8D%9A%E5%AE%A2/" />
+        <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2024-09-28T07:18:02.000Z</updated>
     </entry>
     <entry>
@@ -221,9 +1030,9 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;
         <updated>2024-09-28T05:21:23.960Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/special/</id>
+        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-special/</id>
         <title>Step.4 主题特殊功能</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/special/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-special/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;&lt;strong&gt;🦄特殊功能&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -781,14 +1590,14 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T13:45:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/display/</id>
+        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-display/</id>
         <title>Step.3 界面显示</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/display/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-display/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;&lt;strong&gt;🌈界面显示&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -925,14 +1734,14 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T13:12:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/config/</id>
+        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-config/</id>
         <title>Step.2 基本配置</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/config/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-config/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;&lt;strong&gt;📌基本配置&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1087,14 +1896,14 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T12:56:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/dependents/</id>
+        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc-dependents/</id>
         <title>Step.1 依赖插件</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/dependents/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc-dependents/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1184,14 +1993,14 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T12:46:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science/note/theme-shoka-doc/</id>
+        <id>https://gisellejy.github.io/computer-science-note-theme-shoka-doc/</id>
         <title>Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science/note/theme-shoka-doc/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science-note-theme-shoka-doc/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;跳票 N 久终于更新的简单的使用说明&lt;/p&gt;
 &lt;ul&gt;
@@ -1309,14 +2118,14 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <category term="计算机科学" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />
         <category term="Theme Shoka Documentation" scheme="https://gisellejy.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/Theme-Shoka-Documentation/" />
-        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <category term="教程" scheme="https://gisellejy.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="Hexo" scheme="https://gisellejy.github.io/tags/Hexo/" />
         <updated>2020-08-13T12:45:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science/java/course-1/week-2/</id>
+        <id>https://gisellejy.github.io/computer-science-java-course-1-week-2/</id>
         <title>第2周 判断</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science/java/course-1/week-2/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science-java-course-1-week-2/"/>
         <content type="html">&lt;p&gt;:::note info&lt;br /&gt;
  以下为个人学习笔记和习题整理&lt;br /&gt;
 课程：零基础学 Java 语言 - 浙江大学 - 翁恺 @ 中国大学 MOOC&lt;br /&gt;
@@ -1487,9 +2296,9 @@ grape&lt;/p&gt;
         <updated>2020-04-13T11:12:45.000Z</updated>
     </entry>
     <entry>
-        <id>https://gisellejy.github.io/computer-science/java/course-1/week-1/</id>
+        <id>https://gisellejy.github.io/computer-science-java-course-1-week-1/</id>
         <title>第1周 计算</title>
-        <link rel="alternate" href="https://gisellejy.github.io/computer-science/java/course-1/week-1/"/>
+        <link rel="alternate" href="https://gisellejy.github.io/computer-science-java-course-1-week-1/"/>
         <content type="html">&lt;p&gt;:::note info&lt;br /&gt;
  以下为个人学习笔记和习题整理&lt;br /&gt;
 课程：零基础学 Java 语言 - 浙江大学 - 翁恺 @ 中国大学 MOOC&lt;br /&gt;
@@ -1966,22 +2775,5 @@ alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height
         <content type="html">&lt;p&gt;This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5nb29nbGUuY29tLw==&#34;&gt;Google&lt;/span&gt; in a new tab or window.&lt;/p&gt;
 </content>
         <updated>2013-12-24T15:44:13.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://gisellejy.github.io/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</id>
-        <title>日本語テスト</title>
-        <link rel="alternate" href="https://gisellejy.github.io/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/"/>
-        <content type="html">&lt;p&gt;This is a Japanese test post.&lt;/p&gt;
-&lt;p&gt;私は昨日ついにその助力家というのの上よりするたなけれ。&lt;/p&gt;
-&lt;p&gt;最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。&lt;/p&gt;
-&lt;p&gt;がたを知っないはずも同時に九月をいよいよたありた。&lt;/p&gt;
-&lt;p&gt;もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;From &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2xpcHN1bS5zdWd1dHN1a2FlcnUuanAvaW5kZXguY2dp&#34;&gt;すぐ使えるダミーテキスト - 日本語 Lorem ipsum&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
-</content>
-        <updated>2013-12-24T15:33:26.000Z</updated>
     </entry>
 </feed>
